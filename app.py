@@ -14,7 +14,7 @@ coords = Keypoint()
 mp_drawing = mp.solutions.drawing_utils
 mp_holistic = mp.solutions.holistic
 
-with open ('Hosting/rf.pkl', 'rb') as f:
+with open ('rf.pkl', 'rb') as f:
     rf = pickle.load(f)
 
 def generate_frames():
