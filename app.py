@@ -7,7 +7,7 @@ import pickle
 import numpy as np
 
 app=Flask(__name__)
-cap=cv2.VideoCapture(-1)
+cap=cv2.VideoCapture(1)
 
 coords = Keypoint()
 
