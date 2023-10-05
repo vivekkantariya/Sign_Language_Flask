@@ -6,6 +6,8 @@ import mediapipe as mp
 import pickle
 import numpy as np
 
+# This is edit by vivek.
+
 app=Flask(__name__)
 cap=cv2.VideoCapture(2)
 
